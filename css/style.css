@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* ----------------------HEADER--------------------------- */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.9rem 1.2rem;
+    border: 1px solid black;
+    position: relative;
+}
+
+.header__logo {
+    font-size: 1.3em;
+}
+
+.header__logo a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+    font-size: 1.2em;
+    text-shadow: 1px 1px #212121;
+}
+
+.header__container {
+    border: 1px solid white
+}
+
+/* Navbar */
+
+.header__btn--bars {
+    border: 0px;
+}
+
+.header__btn--cross {
+    display: none;
+    border: 0px;
+    margin: 0 .5em;
+}
+
+.header__bars {
+    padding-right: .2em;
+    display:flex;
+    justify-content: right;
+    font-size: 1.5rem;
+    color: #757575
+}
+
+.header__cross {
+    justify-content: right;
+    font-size: 1.7rem;
+    color: #9E9E9E;
+}
+
+.nav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    right: 0;
+    top: 3rem;
+    width: auto;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #424242;
+}
+
+.nav__link li {
+    padding: 1rem;
+    border-bottom: 1px solid #BDBDBD;
+    letter-spacing: -1px;
+    font-size: .9em;
+    font-weight: bolder;
+}
+
+.nav__link li:active {
+    background-color: #BDBDBD;;
+}
