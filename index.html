@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="">
+    <link rel="icon" href="./images/icon__hamburger.png">
     <link rel="stylesheet" href="./css/style.css">
     <title>BURGHAM</title>
 </head>
-<body>
+<body id="body">
     <header class="header">
         <div class="header__logo">
             <a href="./index.html">BURG·HAM</a>
@@ -19,7 +19,7 @@
             <button class="header__btn--bars" id="header__btn--bars"><i class="fa-solid fa-bars header__bars"></i></button>
             <button class="header__btn--cross" id="header__btn--cross"><i class="fa-solid fa-xmark header__cross"></i></button>
             <nav class="nav" id="mobileNav">
-                <ul>
+                <ul class="nav__list">
                     <a href="./index.html" class="nav__link"><li>INICIO</li></a>
                     <a href="#" class="nav__link"><li>HAMBURGUESAS</li></a>
                     <a href="#" class="nav__link"><li>LOCALES</li></a>
@@ -28,17 +28,46 @@
             </nav>
         </div>   
     </header>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia atque at deserunt sapiente! Dicta, tempore. Commodi dolorem dicta inventore soluta tempora facilis provident praesentium maiores tenetur! Neque veniam voluptas suscipit.
-    Nobis voluptatem doloremque consectetur ea itaque sit praesentium exercitationem distinctio tempora inventore explicabo dolor quibusdam adipisci cum veniam architecto, reiciendis repellat debitis! Voluptatem porro ut excepturi natus mollitia, voluptatum error.
-    Aspernatur ex non omnis. Fugiat mollitia eius debitis quos, sunt dolorum in explicabo inventore, atque obcaecati dolorem amet vel esse, repellat necessitatibus iusto! Consequatur dolores quibusdam eligendi cumque quis eius.
-    Nulla repellendus deleniti sunt debitis repudiandae necessitatibus illum natus commodi fugit dolore nam minima eveniet corrupti, perferendis quisquam vel! Earum et ex dolorum blanditiis architecto voluptates ab adipisci odio accusantium!
-    Tempora quos delectus deserunt sunt adipisci maxime magnam autem laudantium. Numquam, quibusdam rerum aliquam fugit beatae explicabo totam quaerat in quas laborum, a cumque ex maxime error sequi et tenetur?
-    Enim tenetur magnam, dolor aliquid quam itaque facilis dignissimos reprehenderit ipsa similique doloribus ducimus pariatur sequi quis explicabo totam, ut possimus corporis error quo. Quis dolorum error labore ipsum perspiciatis?
-    Voluptates velit voluptatibus asperiores magnam veritatis ipsam nobis accusamus, dolore incidunt fugit itaque, debitis labore adipisci omnis possimus expedita facilis natus facere officia quis mollitia consequuntur temporibus. Repellat, dicta saepe!
-    Ex delectus optio debitis deleniti beatae molestias fugit dolorum distinctio ad voluptate recusandae ullam at dicta nostrum laborum doloremque quibusdam officia vel quas, praesentium eum? Numquam corporis placeat in magnam.
-    Corporis, nostrum beatae ea nihil repudiandae fuga maxime quo, aperiam aut ad asperiores dolorum dicta exercitationem eligendi eveniet nisi numquam, molestias impedit officiis perspiciatis distinctio consequatur quaerat similique! Minima, voluptas!
-    Adipisci quisquam explicabo impedit sed reiciendis aperiam libero maiores dolore incidunt consequatur, veniam consectetur repudiandae, architecto obcaecati ipsa eveniet et dolorum fuga sint exercitationem quaerat? Facere pariatur sint enim fuga?
-    </p>
+    <div class="carrousel">
+        <ul class="carrousel__list">
+            <li class="carrousel__listItem carrousel__listItem--1"><img id="carrousel__img" src="./images/carrousel__hamburger.jpg" alt="imageError" width="100%"></li>
+        </ul>
+        <a id="carrousel__direction" href="#mainContainer">
+            <div class="carrousel__containerIcon">
+                <i class="fa-solid fa-angle-down carrousel__icon"></i>
+            </div>
+        </a>
+    </div>
+    <div class="background-div">
+    <section class="mainContainer" id="mainContainer">
+        <div class="mainContainer__divTitles">
+            <h2 class="mainContainer__title">LA MEJOR HAMBURGUESA Y EN EL PAIS DE LA MEJOR CARNE</h2>
+            <p class="mainContainer__subtitle">
+                ENTERATE DE TODAS NUESTRAS PROMOCIONES Y SORTEOS, SEGUINOS EN LAS REDES SOCIALES Y ENTERATE
+                DE TODO!
+            </p>
+            <div class="mainContainer__media">
+                <a href="#"><i class="fa-brands fa-facebook-f mainContainer__facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram mainContainer__instagram"></i></a>
+            </div>
+        </div>
+        <div class="mainContainer__divImg">
+            <img src="./images/main__hamburger.jpg" alt="hamburguer">
+        </div>
+    </section>
+    </div>
+    <footer class="footer">
+        <h3 class="footer__title">BURG-HAM</h3>
+        <a href="#" class="footer__link">
+            <i class="fa-solid fa-location-pin footer__subtitle--pin"></i>
+            <h3>CONOCÉ NUESTROS LOCALES</h3>
+        </a>     
+        <div class="footer__container2">
+            <a href="#" class="footer__link2"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="footer__link2"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="./js/carrousel.js"></script>
     <script src="./js/mobileMenu.js"></script>
 </body>
 </html>
