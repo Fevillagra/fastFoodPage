@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/icon__hamburger.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>BURGHAM</title>
+</head>
+<body id="body">
+    <header class="header">
+        <div class="header__logo">
+            <a href="../index.html">BURG·HAM</a>
+        </div>
+        <div class="header__container">
+            <button class="header__btn--bars" id="header__btn--bars"><i class="fa-solid fa-bars header__bars"></i></button>
+            <button class="header__btn--cross" id="header__btn--cross"><i class="fa-solid fa-xmark header__cross"></i></button>
+            <nav class="nav" id="mobileNav">
+                <ul class="nav__list">
+                    <a href="../index.html" class="nav__link"><li>INICIO</li></a>
+                    <a href="./hamburger.html" class="nav__link"><li>HAMBURGUESAS</li></a>
+                    <a href="./restaurants.html" class="nav__link"><li>LOCALES</li></a>
+                    <a href="./contact.html" class="nav__link"><li>CONTACTO</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container-title">
+        <h2>Comunicate con nosotros!</h2>
+    </div>
+    <main class="container-form">
+        <div class="container-form__container-img">
+            <img src="../images/contact.jpg" alt="contact" class="container-form__img">
+        </div>
+        <div>
+            <div class="container-form__container-title">
+                <h3 class="container-form__title">COMPLETÁ EL FORMULARIO Y TE RESPONDEREMOS LUEGO!</h3>
+            </div>
+            <form method="GET" class="container-form__form">
+                <div class="container-form__container-input container-form__container-input--g1">
+                    <input type="text" placeholder="NOMBRE" required class="container-form__input">
+                </div>
+                <div class="container-form__container-input container-form__container-input--g2">
+                    <input type="email" placeholder="EMAIL" required class="container-form__input">
+                </div>
+                <div class="container-form__container-input container-form__container-input--g3">
+                    <textarea placeholder="MENSAJE" class="container-form__input container-form__input--area"></textarea>
+                </div>
+                <div class="container-form__container-input container-form__container-input--g4">
+                    <input type="submit" placeholder="ENVIAR" class="container-form__input container-form__input--send">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <h3 class="footer__title">BURG-HAM</h3>
+        <a href="./restaurants.html" class="footer__link">
+            <i class="fa-solid fa-location-pin footer__subtitle--pin"></i>
+            <h3>CONOCÉ NUESTROS LOCALES</h3>
+        </a>     
+        <div class="footer__container2">
+            <a href="#" class="footer__link2"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="footer__link2"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="../js/mobileMenu.js"></script>
+    <script src="../js/scroll_footer.js"></script>
+</body>
+</html>

@@ -19,4 +19,4 @@ const switchImage = () => {
     carrouselImage.src = carrouselCollection[indexImage];
 }
 
-const moveImage = setInterval(switchImage, 7000);
+setInterval(switchImage, 7000);

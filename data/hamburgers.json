@@ -1,0 +1,80 @@
+[
+    {
+        "id": "h1",
+        "type": "CLÁSICAS",
+        "url": "../images/menu/clasica1.jpg",
+        "description": "QUESO / HAMBURGUESA CASERA CON CHEDDAR, LECHUGA, TOMATE Y PEPINOS EN VINAGRE."
+    },
+    {
+        "id": "h2",
+        "type": "CLÁSICAS",
+        "url": "../images/menu/clasica2.jpg",
+        "description": "CLÁSICA / HAMBURGUESA CASERA CON LECHUGA, TOMATE Y PEPINOS EN VINAGR.E"
+    },
+    {
+        "id": "h3",
+        "type": "CLÁSICAS",
+        "url": "../images/menu/clasica3.jpg",
+        "description": "JAMON; QUESO Y TOMATE / HAMBURGUESA CASERA CON JAMON CODIDO, QUESO TYBO Y TOMATE FRESCO."
+    },
+    {
+        "id": "h4",
+        "type": "GOURMET",
+        "url": "../images/menu/gourmet1.jpg",
+        "description": "CRIOLLA / HAMBURGUESA DE CARNE CON CHORIZO, SALSA CRIOLLA, LECHUGA, TOMATE Y PROVOLETA."
+    },
+    {
+        "id": "h5",
+        "type": "GOURMET",
+        "url": "../images/menu/gourmet2.jpg",
+        "description": "CHORIBURGUESA / HAMBURGUESA DE CHORIZO DE CERDO CON CHIMICHURRI CASERO CON PAN DE CAMPO."
+    },
+    {
+        "id": "h6",
+        "type": "GOURMET",
+        "url": "../images/menu/gourmet3.jpg",
+        "description": "CERDO / HAMBURGUESA DE BONDIOLA DE CERDO CON CEBOLLA CARAMELIZADA, MORRON Y SALSA BARBACOA"
+    },
+    {
+        "id": "h7",
+        "type": "GOURMET",
+        "url": "../images/menu/gourmet4.jpg",
+        "description": "CORDERO / HAMBURGUESA DE CORDERO CON PERA, RUCULA Y TOMATES SECOS."
+    },
+    {
+        "id": "h8",
+        "type": "GOURMET",
+        "url": "../images/menu/gourmet5.jpg",
+        "description": "POLLO / HAMBURGUESA DE POLLO CON QUESO TYBO, TOMATE, LECHUGA Y SALSA DE HIERBAS."
+    },
+    {
+        "id": "h9",
+        "type": "ESPECIAL",
+        "url": "../images/menu/especial1.jpg",
+        "description": "DOBLE CHEDAR Y PANCETA / HAMBURGUESA CASERA CON DOBLE CHEDAR Y PANCETA CON CEBOLLA CARAMELIZADA."
+    },
+    {
+        "id": "h10",
+        "type": "ESPECIAL",
+        "url": "../images/menu/especial2.jpg",
+        "description": "COMPLETA / HAMBURGUESA CON PANCETA, CHEDDAR, CEBOLLA CARAMELIZADA, LECHUGA, TOMATE Y PEPINOS."
+    },
+    {
+        "id": "h11",
+        "type": "ESPECIAL",
+        "url": "../images/menu/especial3.jpg",
+        "description": "DEMENTE / DOS MEDALLONES DE CARNE, LECHUGA, TOMATE, PEPINOS, DOBLE QUESO CHEDDAR Y DOBLE PANCETA."
+    },
+    {
+        "id": "h12",
+        "type": "VEGETARIANAS",
+        "url": "../images/menu/vegg1.jpg",
+        "description": "LENTEJAS Y VEGETALES / HAMBURGUESA DE LENTEJAS Y VEGETALES CON QUESO, LECHUGA Y TOMATES FRESCOS."
+    },
+    {
+        "id": "h13",
+        "type": "VEGETARIANAS",
+        "url": "../images/menu/vegg2.jpg",
+        "description": "QUINOA Y SEMILLAS / HAMBURGUESA DE QUINOA Y SELECCION DE SEMILLAS, QUESO, LECHUGA Y TOMATES FRESCOS."
+    }
+]

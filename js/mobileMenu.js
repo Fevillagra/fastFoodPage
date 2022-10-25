@@ -25,4 +25,3 @@ const fixMenu = () => {
 btnBars.addEventListener('click', openMenu);
 btnCross.addEventListener('click', closeMenu);
 mainBody.addEventListener('DOMContentLoaded', fixMenu);
-
