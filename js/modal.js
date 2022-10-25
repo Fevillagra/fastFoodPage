@@ -9,7 +9,6 @@ const modalCross = document.querySelector('.modal__btn');
 const modalImg = document.querySelector('.modal__img');
 const modalDescription = document.querySelector('.modal__description');
 
-
 window.addEventListener('DOMContentLoaded', () => containerImages.forEach(element => element.style.background = '#FF6600'));
 
 img.forEach(element => element.addEventListener('click', () => {

@@ -35,6 +35,11 @@ body {
     text-shadow: 1px 1px #212121;
 }
 
+/* div principal */
+
+.background-div {
+    margin-bottom: 2.5rem;
+}
 
 /* Navbar */
 
@@ -67,7 +72,7 @@ body {
 .nav {
     display: none;
     position: absolute;
-    z-index: 100;
+    z-index: 1100; /*VALOR ALTERADO*/
     background-color: #fff;
     left: 0;
     right: 0;
@@ -118,7 +123,7 @@ body {
     border: 2px solid #eee;
     border-radius: 40px;
     width: min-content;
-    z-index: 50;
+    z-index: 1050; /*VALOR ALTERADO*/
     position: absolute;
     right: 0;
     left: 0;
@@ -245,7 +250,7 @@ body {
 
 .menu {
     position: relative;
-    z-index: 25;
+    z-index: 1025; /*VALOR ALTERADO*/
     padding: 5rem 3rem;
     background: #fff;
 }
@@ -285,7 +290,7 @@ body {
 .menu__btn {
     display: none;
     position: absolute;
-    z-index: 50;
+    z-index: 1050; /*VALOR ALTERADO*/
     width: 3rem;
     height: 3rem;
     border: .185rem solid #fff;
@@ -343,7 +348,7 @@ body {
 .modal {
     display: none;
     position: fixed;
-    z-index: 3000;
+    z-index: 4000; /*VALOR ALTERADO*/
     justify-content: center;
     background: rgba( 0, 0, 0, .8);
     top: 0;
@@ -650,7 +655,7 @@ body {
 
     .container-form__container-title {
         position: absolute;
-        z-index: 0;
+        z-index: 1000; /*VALOR ALTERADO*/
         left: 0;
         width: 100%;
     }
@@ -663,13 +668,26 @@ body {
         background-color: #fff;
     }
 
+    .header {
+        z-index: 1200;
+        position: relative;
+    }
+
     .background-div {
+        z-index: 1000;  /*VALOR ALTERADO*/
+        position: relative; /*VALOR ALTERADO*/
         background-color: #fff;
+        margin-bottom: 10rem;
+    }
+
+    .carrousel {
+        position: relative; /*VALOR ALTERADO*/
+        z-index: 1000; /*VALOR ALTERADO*/
     }
 
     .footer {
         position: sticky;
-        z-index: -1000;
+        z-index: 0; /*VALOR ALTERADO*/
         bottom: 0;
     }
 
@@ -695,6 +713,8 @@ body {
         font-size: 4.3rem;
         background: #fff;
         padding-top: 8rem;
+        position: relative;
+        z-index: 1000;
     }
 
     .locations {
@@ -702,6 +722,8 @@ body {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         grid-gap: 1rem;
+        z-index: 1000;
+        position: relative;
     }
 
     .locations__container--text {
@@ -712,10 +734,14 @@ body {
 
     .container-title {
         background: #fff;
+        position: relative;
+        z-index: 1000;
     }
 
     .container-form {
         background: #fff;
+        position: relative;
+        z-index: 1000;
     }
 
     .container-form__img {
@@ -769,7 +795,7 @@ body {
         grid-template-columns: 15rem 1fr;
         grid-template-rows: 1fr;
         position: fixed;
-        z-index: 200;
+        z-index: 1200; /*VALOR ALTERADO*/
         top: 0;
         background-color: rgba(255, 255, 255, .7);
         width: 100%;
